@@ -70,9 +70,15 @@ ROC-AUC: Overall ability to separate churn vs non-churn across thresholds.
 
 Logistic Regression: Recall 0.74, Precision 0.35, ROC-AUC 0.82.
 
+![alt text](<images/logistic regression.png>)
+
 Decision Tree (untuned): Recall 0.65, Precision 0.63, ROC-AUC 0.79.
 
+![alt text](<images/dec tree model 2.png>)
+
 Tuned Decision Tree: Recall 0.75, Precision 0.68, ROC-AUC 0.84.
+
+![alt text](<images/dec tree model 3.png>)
 
 ## *Interpretation:*
 
@@ -102,9 +108,12 @@ Around 30% of flagged customers won’t churn (false positives).
 
 In conclusion the tuned Decision Tree provides a practical, interpretable solution that balances recall and precision. By focusing retention campaigns on high-risk customers, SyriaTel can reduce churn, save costs, and improve customer loyalty.
 
+*presentation link*[text](presentation/presentation.pdf)
+
 ## *Repository Structure*
-├── data/
-├── images/
-├── presentation/
-├── readme.md
-└── student.ipynb
+├── data/<br>
+├── images/<br>
+├── presentation/<br>
+├── readme.md<br>
+└── student.ipynb<br>
+
