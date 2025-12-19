@@ -44,9 +44,15 @@ Scaled numeric features to ensure fair treatment across models.
 
 Logistic Regression: A simple and interpretable model to establish a benchmark/baseline.
 
+images\logistic regression.png
+
 Decision Tree (untuned): Captures non-linear patterns and feature interactions.
 
+images\dec tree model 2.png
+
 Tuned Decision Tree: Adjusted hyperparameters to improve generalization and interpretability.
+
+images\dec tree model 3.png
 
 ## **Evaluation**
 
@@ -95,3 +101,10 @@ Model misses around 25% of churners (false negatives).
 Around 30% of flagged customers won’t churn (false positives).
 
 In conclusion the tuned Decision Tree provides a practical, interpretable solution that balances recall and precision. By focusing retention campaigns on high-risk customers, SyriaTel can reduce churn, save costs, and improve customer loyalty.
+
+## *Repository Structure*
+├── data/
+├── images/
+├── presentation/
+├── readme.md
+└── student.ipynb
