@@ -14,7 +14,7 @@ The goal is to predict churn risk so the company can reduce losses and improve l
 
 ## *Stakeholder Audience:*
 
-Business managers who are the decision makers: Need clear, actionable insights (e.g., which customers to target).
+Business managers who are the decision makers: Need clear, actionable insights (e.g., which customers to target for tailored product bundles).
 
 Customer support teams: Want to know which customers are at risk so they can prioritize outreach.
 
@@ -44,15 +44,9 @@ Scaled numeric features to ensure fair treatment across models.
 
 Logistic Regression: A simple and interpretable model to establish a benchmark/baseline.
 
-images\logistic regression.png
-
 Decision Tree (untuned): Captures non-linear patterns and feature interactions.
 
-images\dec tree model 2.png
-
 Tuned Decision Tree: Adjusted hyperparameters to improve generalization and interpretability.
-
-images\dec tree model 3.png
 
 ## **Evaluation**
 
